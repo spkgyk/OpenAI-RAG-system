@@ -1,0 +1,20 @@
+name: od-rag
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - python
+  - faiss-gpu
+  - pip:
+    # - -i https://pypi.tuna.tsinghua.edu.cn/simple
+    - nltk
+    - pypdf
+    - pytest
+    - openai
+    - pyyaml
+    - aiohttp
+    - langchain
+    - pymupdf4llm
+    - langchain_community
+
